@@ -10,22 +10,18 @@
 
 </canvas>
 <script>
-
-    // safe zone
-    const v = document.getElementById("can");
-    let vtx = v.getContext("2d");
     vtx.beginPath();
-    vtx.rect(0, 130, 1000 , 10);
+    vtx.rect(0, 140, 1000 , 10);
     vtx.fillStyle = "green";
     vtx.fill();
         // street zone
     vtx.beginPath();
-    vtx.rect(0, 70, 1000 , 60);
+    vtx.rect(0, 90, 1000 , 30);
     vtx.fillStyle = "grey";
     vtx.fill();
         // another safe zone
     vtx.beginPath();
-    vtx.rect(0, 50, 1000 , 20);
+    vtx.rect(0, 40, 1000 , 10);
     vtx.fillStyle = "green";
     vtx.fill();
 
