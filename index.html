@@ -6,29 +6,7 @@
     <link rel="stylesheet" href="git-branches/css.css">
 </head>
 <body>
-<canvas id="can">
-
-</canvas>
-<script>
-
-    // safe zone
-    const v = document.getElementById("can");
-    let vtx = v.getContext("2d");
-    vtx.beginPath();
-    vtx.rect(0, 130, 1000 , 10);
-    vtx.fillStyle = "green";
-    vtx.fill();
-        // street zone
-    vtx.beginPath();
-    vtx.rect(0, 70, 1000 , 60);
-    vtx.fillStyle = "grey";
-    vtx.fill();
-        // another safe zone
-    vtx.beginPath();
-    vtx.rect(0, 50, 1000 , 20);
-    vtx.fillStyle = "green";
-    vtx.fill();
-
-</script>
+<canvas id="can"></canvas>
+<script type="module" src="app.mjs"></script>
 </body>
 </html>
