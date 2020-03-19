@@ -1,6 +1,10 @@
-import {gn} from "./objecten.mjs";
+
+
+//DIT IS CANVAS
+
 
 // safe zone
+
 const v = document.getElementById("can");
 let vtx = v.getContext("2d");
 vtx.beginPath();
@@ -45,3 +49,6 @@ vtx.fill();
 
 // objeccts
 //
+
+import {gn} from "./treeobject";
+console.log(gn());
