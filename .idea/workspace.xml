@@ -110,6 +110,13 @@
   <component name="FavoritesManager">
     <favorites_list name="FROGGY" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
 >>>>>>> 206be1564c0ea95c328a50b267d271e31dc9d6f7
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -289,7 +296,7 @@
       <updated>1581598265224</updated>
       <workItem from="1581598266410" duration="2061000" />
       <workItem from="1582196896765" duration="2503000" />
-      <workItem from="1583406848655" duration="1727000" />
+      <workItem from="1583406848655" duration="1982000" />
     </task>
     <servers />
   </component>

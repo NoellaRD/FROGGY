@@ -11,14 +11,21 @@ const char = {
     // }
 };
 
-const tree = {
-    naam: "woosh",
-    color: "brown",
-    width: 60,
-    height: 20,
-};
+function()
+{
+    const tree = {
+        naam: "woosh",
+        color: "brown",
+        width: 60,
+        height: 20,
+        x: 0,
+        y: 0
+    };
 
-const cars = {
+    document.getElementById('can').innerHTML= tree;
+}
+
+const car = {
     naam: "toettoet",
     color: "red",
     width: 30,
@@ -38,6 +45,14 @@ char.prototype.constructor = function (controls) {
     if (controls === 'left'){
         x = this.x -101;
         if(x >= 0){
+            this.x = x;
+        }
+    }
+
+
+    if (allowedKeys === 'right') {
+        x = this.x + 101;
+        if (x <= 1101) {
             this.x = x;
         }
     }
