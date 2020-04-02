@@ -12,7 +12,8 @@
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
 =======
     <list default="true" id="0fdd6f1c-a2ee-4045-b1f2-92d546811e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objecten.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
 >>>>>>> 206be1564c0ea95c328a50b267d271e31dc9d6f7
@@ -108,6 +109,13 @@
 =======
   <component name="FavoritesManager">
     <favorites_list name="FROGGY" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
 >>>>>>> 206be1564c0ea95c328a50b267d271e31dc9d6f7
@@ -288,6 +296,7 @@
       <updated>1581598265224</updated>
       <workItem from="1581598266410" duration="2061000" />
       <workItem from="1582196896765" duration="2503000" />
+      <workItem from="1583406848655" duration="1982000" />
     </task>
     <servers />
   </component>
