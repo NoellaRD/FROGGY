@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fd</title>
+    <style>
+        #can{
+            height: 400px;
+            width: 800px;
+            border: red 2px solid;
+        }
+    </style>
+</head>
+<body>
+<canvas id="can"></canvas>
+<script>
+
+    const v = document.getElementById("can");
+    let vtx = v.getContext("2d");
+    vtx.fillStyle = "blue";
+
+    function Vehicle(color, wheelColor, length, x, y, speed, direction)
+    { this.color = color;
+    this.wheelColor = wheelColor;
+        this.length = length;
+        this.x = x;
+        this.y = y;
+        this.speed = speed;
+        this.direction = direction;
+        this.move = function() { this.x += this.direction = 'right' ? this.speed : (this.speed * -1);
+            if (this.direction = 'right') { if (this.x >= 450) { this.x = -1; }
+            } else { if (this.x <= -40) { this.x = 400; } }
+
+            vtx.beginPath();
+            vtx.fillStyle = this.color;
+            vtx.fill()
+        };
+
+
+
+    } const vehicles = [ new Vehicle('yellow', 'red', 20, 20, 330, 0.65, 'left')
+        , new Vehicle('yellow', 'red', 20, 220, 330, 0.65, 'left'), new Vehicle('white', 'silver', 20, 20, 305, 0.55, 'right'),
+        new Vehicle('white', 'silver', 20, 220, 305, 0.55, 'right'), new Vehicle('purple', 'yellow', 20, 20, 280, 0.75, 'left'),
+        new Vehicle('purple', 'yellow', 20, 220, 280, 0.75, 'left'), new Vehicle('green', 'red', 20, 20, 255, 1, 'right'),
+        new Vehicle('green', 'red', 20, 220, 255, 1, 'right'),
+        new Vehicle('white', 'green', 40, 20, 230, 0.4, 'left'), new Vehicle('white', 'green', 40, 220, 230, 0.4, 'left')
+    ];
+
+    function draw() {
+        vehicles.this.move();
+    }
+        requestAnimationFrame(draw);
+</script>
+
+</body>
+</html>
