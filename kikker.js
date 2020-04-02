@@ -4,7 +4,7 @@ let frogss;
 let mm = function frogger() {
     ruimte.start();
     frogss = new Frog(50, 50, "green", 200, 135);
-}
+};
 
 let ruimte = {
     canvas : document.createElement("canvas"),

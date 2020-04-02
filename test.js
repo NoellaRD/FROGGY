@@ -1,4 +1,4 @@
-let frogss;
+
 
 function Frog(width, height, color, x, y) {
     this.width = width;

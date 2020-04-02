@@ -3,6 +3,7 @@
 import {Vehicle} from "./treeobject.js";
 import {background} from "./canvas.js";
 import {mm} from "./kikker.js";
+// import {Frog} from "./test.js";
 
 
 const canvas = document.getElementById("can");
@@ -10,7 +11,7 @@ const vtx = canvas.getContext("2d");
 
 
 const gameObjects = [
-    background,mm,
+    background,
     new Vehicle('grey', 'red', 'grey', 0, 90, 10,30, 0, 1.5),
     new Vehicle('grey', 'blue', 'black', 0, 110, 10,30, 0, 1),
     new Vehicle('grey', 'pink', 'black', 0, 130, 10,30, 0, 0.7),
